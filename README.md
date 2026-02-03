@@ -40,8 +40,8 @@ This tool helps you fill PDF forms accurately and safely without relying on paid
 
 ### 1️⃣ Prerequisites
 
-- Python 3.9+
-- `pip`
+- Python 3.11+
+- `pip` or `uv`
 - Recommended: virtual environment
 
 ### 2️⃣ Clone the Repository
@@ -53,8 +53,19 @@ cd pdf-filler
 
 ### 3️⃣ Install Dependencies
 
+Using pip:
 ```bash
 pip install -r requirements.txt
+```
+
+Or using uv:
+```bash
+uv sync
+```
+
+Or install as a package:
+```bash
+pip install .
 ```
 
 ### 4️⃣ Run the App
